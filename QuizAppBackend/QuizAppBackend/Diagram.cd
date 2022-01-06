@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuizAppBackend.Context.AppDbContext" Collapsed="true">
+    <Position X="20.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAgAAAEQAAAAAAAAAA=</HashCode>
+      <FileName>Context\AppDbContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Controllers.AnswerController" Collapsed="true">
+    <Position X="11" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\AnswerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Controllers.GenericController&lt;T, DTO, S&gt;" Collapsed="true">
+    <Position X="14.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAABQAAAAAAAACAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\GenericController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Controllers.PlayerController" Collapsed="true">
+    <Position X="13.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Controllers.QuestionController" Collapsed="true">
+    <Position X="15.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controllers\QuestionController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Controllers.QuizController" Collapsed="true">
+    <Position X="17.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACSAAAAAAAAAAAAQAAAAAAAAAAAgAAEAAgAAAAAAAAE=</HashCode>
+      <FileName>Controllers\QuizController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Mapping.Profiles" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mapping\Profiles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Migrations.m1" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220102023035_m1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Migrations.m2" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220102044019_m2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Migrations.m3" Collapsed="true">
+    <Position X="20.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220103124912_m3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Migrations.m4" Collapsed="true">
+    <Position X="22" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220103133957_m4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Migrations.m5" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220103152748_m5.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Migrations.AppDbContextModelSnapshot" Collapsed="true">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\AppDbContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.Answer" Collapsed="true">
+    <Position X="11" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQIAAA=</HashCode>
+      <FileName>Models\Answer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.AnswerDTO" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQIAAA=</HashCode>
+      <FileName>Models\AnswerDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.EntityWithId" Collapsed="true">
+    <Position X="14.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EntityWithId.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.EntityWithIdDTO" Collapsed="true">
+    <Position X="14.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\EntityWithIdDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.Player" Collapsed="true">
+    <Position X="15.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Player.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.PlayerDTO" Collapsed="true">
+    <Position X="15.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\PlayerDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.Question" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>Models\Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.QuestionDTO" Collapsed="true">
+    <Position X="17.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAQAAAAAQQAAAAAAAAA=</HashCode>
+      <FileName>Models\QuestionDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.Quiz" Collapsed="true">
+    <Position X="13.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAgAAAAAAAQAAAAAAAEGAAAAAQAACAA=</HashCode>
+      <FileName>Models\Quiz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Models.QuizDTO" Collapsed="true">
+    <Position X="13.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAACAAAgAAAAAAAQAAAAAAAEGAAAAAQAACAA=</HashCode>
+      <FileName>Models\QuizDTO.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Objects.Rating" Collapsed="true">
+    <Position X="22" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Rating.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Objects.Unlock" Collapsed="true">
+    <Position X="25.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Objects\Unlock.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Repositories.AnswerRepository" Collapsed="true">
+    <Position X="3.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\AnswerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Repositories.CRUDRepository&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAABAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\CRUDRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.686" />
+  </Class>
+  <Class Name="QuizAppBackend.Repositories.PlayerRepository" Collapsed="true">
+    <Position X="1" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\PlayerRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Repositories.QuestionRepository" Collapsed="true">
+    <Position X="5.5" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\QuestionRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Repositories.QuizRepository" Collapsed="true">
+    <Position X="7.75" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <FileName>Repositories\QuizRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Services.AnswerService" Collapsed="true">
+    <Position X="3.25" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAABAAAAAAAABAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Services\AnswerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Services.CRUDService&lt;T, U, DTO&gt;" Collapsed="true">
+    <Position X="4.25" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAABAAgAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\CRUDService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Services.PlayerService" Collapsed="true">
+    <Position X="0.75" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAABCAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\PlayerService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Services.QuestionService" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAAAAABCAQAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\QuestionService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Services.QuizService" Collapsed="true">
+    <Position X="8" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAABAAAAAAAADAAAAAQAAEAEAAgAACAAEAAE=</HashCode>
+      <FileName>Services\QuizService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="QuizAppBackend.Program" Collapsed="true">
+    <Position X="20.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuizAppBackend.Startup" Collapsed="true">
+    <Position X="23.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAACAAAAAAAgAAACAAAAEA=</HashCode>
+      <FileName>Startup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="QuizAppBackend.Repositories.IAnswerRepository" Collapsed="true">
+    <Position X="7.75" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IAnswerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Repositories.ICRUDRepository&lt;T&gt;" Collapsed="true">
+    <Position X="4.25" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Repositories\ICRUDRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Repositories.IPlayerRepository" Collapsed="true">
+    <Position X="1" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IPlayerRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Repositories.IQuestionRepository" Collapsed="true">
+    <Position X="3.25" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\IQuestionRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Repositories.IQuizRepository" Collapsed="true">
+    <Position X="5.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAE=</HashCode>
+      <FileName>Repositories\IQuizRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Services.IAnswerService" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IAnswerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Services.ICRUDService&lt;T, DTO&gt;" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAgAAAAAAAIA=</HashCode>
+      <FileName>Services\ICRUDService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Services.IPlayerService" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IPlayerService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Services.IQuestionService" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\IQuestionService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="QuizAppBackend.Services.IQuizService" Collapsed="true">
+    <Position X="8.25" Y="1.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAABAAAAAAAACAAAAAAAAAAEAAgAACAAAAAE=</HashCode>
+      <FileName>Services\IQuizService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="QuizAppBackend.Enums.Category" Collapsed="true">
+    <Position X="20.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAEQAAAAEIAAAAAQAAEAAAAAAAAAAAKAQAQACAA=</HashCode>
+      <FileName>Enums\Category.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QuizAppBackend.Enums.QuestionType" Collapsed="true">
+    <Position X="22" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQgAAIAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\QuestionType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="QuizAppBackend.Enums.Status" Collapsed="true">
+    <Position X="23.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAACAAAAAAIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enums\Status.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

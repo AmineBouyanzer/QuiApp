@@ -1,0 +1,10 @@
+@startuml
+class AppDbContext {
+    + Quizes : DbSet<Quiz> <<get>> <<set>>
+    + Questions : DbSet<Question> <<get>> <<set>>
+    + Answers : DbSet<Answer> <<get>> <<set>>
+    + Players : DbSet<Player> <<get>> <<set>>
+    + AppDbContext(options:DbContextOptions<AppDbContext>)
+}
+DbContext <|-- AppDbContext
+@enduml

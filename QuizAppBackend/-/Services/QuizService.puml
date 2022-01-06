@@ -1,0 +1,15 @@
+@startuml
+class QuizService {
+    + QuizService(repository:IQuizRepository, mapper:IMapper, questionService:IQuestionService, serviceAnswer:IAnswerService, servicePlayer:IPlayerService)
+    + GetByStatus(status:Status) : IEnumerable<QuizDTO>
+    + GetByCategory(category:Category) : IEnumerable<QuizDTO>
+    + getByName(name:string) : QuizDTO
+    + <<new>> Insert(quiz:QuizDTO) : void
+    + GetCascadeQuizById(quizId:Guid) : QuizDTO
+    + Rating(rating:Rating) : bool
+    + VerifyPassword(mdp:Unlock) : int
+    + UpdateQuizOnCascade(id:Guid, quiz:QuizDTO) : QuizDTO
+}
+"CRUDService`3" "<Quiz,IQuizRepository,QuizDTO>" <|-- QuizService
+IQuizService <|-- QuizService
+@enduml

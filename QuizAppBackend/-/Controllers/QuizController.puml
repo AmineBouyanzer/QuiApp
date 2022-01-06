@@ -1,0 +1,13 @@
+@startuml
+class QuizController {
+    + QuizController(service:IQuizService)
+    + GetAllCategories() : IActionResult
+    + GetByStatus(status:Status) : IActionResult
+    + GetByCategory(category:Category) : IActionResult
+    + GetCascadeQuizById(quizId:Guid) : IActionResult
+    + UnlockQuiz(unlock:Unlock) : IActionResult
+    + Rating(unlock:Rating) : IActionResult
+    + Update(id:Guid, quizz:QuizDTO) : IActionResult
+}
+"GenericController`3" "<Quiz,QuizDTO,IQuizService>" <|-- QuizController
+@enduml

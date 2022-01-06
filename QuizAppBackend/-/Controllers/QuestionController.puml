@@ -1,0 +1,6 @@
+@startuml
+class QuestionController {
+    + QuestionController(service:IQuestionService)
+}
+"GenericController`3" "<Question,QuestionDTO,IQuestionService>" <|-- QuestionController
+@enduml

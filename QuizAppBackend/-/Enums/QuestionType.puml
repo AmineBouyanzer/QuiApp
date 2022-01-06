@@ -1,0 +1,8 @@
+@startuml
+enum QuestionType {
+    TEXT,
+    CHECKBOX,
+    RADIO,
+    LIST,
+}
+@enduml

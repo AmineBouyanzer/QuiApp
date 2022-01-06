@@ -1,0 +1,12 @@
+@startuml
+interface IQuizService {
+    + GetCascadeQuizById(quizId:Guid) : QuizDTO
+    + UpdateQuizOnCascade(id:Guid, quiz:QuizDTO) : QuizDTO
+    + Rating(rating:Rating) : bool
+    + VerifyPassword(mdp:Unlock) : int
+    + GetByStatus(status:Status) : IEnumerable<QuizDTO>
+    + GetByCategory(category:Category) : IEnumerable<QuizDTO>
+    + getByName(name:string) : QuizDTO
+}
+"ICRUDService`2" "<Quiz,QuizDTO>" <|-- IQuizService
+@enduml

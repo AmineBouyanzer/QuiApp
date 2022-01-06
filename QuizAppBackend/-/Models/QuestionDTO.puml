@@ -1,0 +1,9 @@
+@startuml
+class QuestionDTO {
+    + question : string <<get>> <<set>>
+    + <<virtual>> Type : QuestionType <<get>> <<set>>
+    + <<virtual>> Answers : IEnumerable<AnswerDTO> <<get>> <<set>>
+    + QuizId : Guid <<get>> <<set>>
+}
+EntityWithIdDTO <|-- QuestionDTO
+@enduml

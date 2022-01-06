@@ -1,0 +1,11 @@
+@startuml
+class "GenericController`3"<T,DTO,S> {
+    + GenericController(service:S)
+    + Get() : IActionResult
+    + Get(id:Guid) : IActionResult
+    + Post(obj:DTO) : IActionResult
+    + Update(obj:DTO) : IActionResult
+    + Delete(id:Guid) : IActionResult
+}
+ControllerBase <|-- "GenericController`3"
+@enduml

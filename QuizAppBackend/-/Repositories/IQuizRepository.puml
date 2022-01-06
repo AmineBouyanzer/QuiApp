@@ -1,0 +1,8 @@
+@startuml
+interface IQuizRepository {
+    + getByName(name:string) : Quiz
+    + GetByStatus(status:Status) : IEnumerable<Quiz>
+    + GetByCategory(category:Category) : IEnumerable<Quiz>
+}
+"ICRUDRepository`1" "<Quiz>" <|-- IQuizRepository
+@enduml

@@ -1,0 +1,4 @@
+@startuml
+class m4 <<partial>> {
+}
+@enduml

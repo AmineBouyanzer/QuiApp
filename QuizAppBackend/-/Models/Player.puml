@@ -1,0 +1,8 @@
+@startuml
+class Player {
+    + Name : string <<get>> <<set>>
+    + Result : int <<get>> <<set>>
+    + QuizId : Guid <<get>> <<set>>
+}
+EntityWithId <|-- Player
+@enduml

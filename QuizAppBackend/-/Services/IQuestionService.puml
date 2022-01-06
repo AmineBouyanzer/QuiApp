@@ -1,0 +1,7 @@
+@startuml
+interface IQuestionService {
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<QuestionDTO>
+    + updateQuestion(questionDTO:QuestionDTO) : void
+}
+"ICRUDService`2" "<Question,QuestionDTO>" <|-- IQuestionService
+@enduml

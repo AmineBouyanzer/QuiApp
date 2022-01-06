@@ -1,0 +1,9 @@
+@startuml
+interface "ICRUDRepository`1"<T> {
+    GetAll() : IEnumerable<T>
+    GetById(Id:Guid) : T
+    Insert(obj:T) : void
+    Update(obj:T) : void
+    Delete(id:Guid) : void
+}
+@enduml

@@ -1,0 +1,8 @@
+@startuml
+class PlayerService {
+    + PlayerService(repository:IPlayerRepository, mapper:IMapper)
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<PlayerDTO>
+}
+"CRUDService`3" "<Player,IPlayerRepository,PlayerDTO>" <|-- PlayerService
+IPlayerService <|-- PlayerService
+@enduml

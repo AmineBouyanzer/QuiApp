@@ -1,0 +1,8 @@
+@startuml
+class Answer {
+    + Text : string <<get>> <<set>>
+    + Correct : bool <<get>> <<set>>
+    + QuestionId : Guid <<get>> <<set>>
+}
+EntityWithId <|-- Answer
+@enduml

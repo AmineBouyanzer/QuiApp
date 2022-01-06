@@ -1,0 +1,6 @@
+@startuml
+class Unlock {
+    + Id : Guid <<get>> <<set>>
+    + Password : string <<get>> <<set>>
+}
+@enduml

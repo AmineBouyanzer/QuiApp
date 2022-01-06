@@ -1,0 +1,8 @@
+@startuml
+class QuestionRepository {
+    + QuestionRepository(context:AppDbContext)
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<Question>
+}
+"CRUDRepository`1" "<Question>" <|-- QuestionRepository
+IQuestionRepository <|-- QuestionRepository
+@enduml

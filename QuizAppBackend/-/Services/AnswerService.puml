@@ -1,0 +1,9 @@
+@startuml
+class AnswerService {
+    + AnswerService(repository:IAnswerRepository, mapper:IMapper)
+    + GetByQuestion(idQuiz:Guid) : IEnumerable<AnswerDTO>
+    + UpdateAnswer(answerDto:AnswerDTO) : void
+}
+"CRUDService`3" "<Answer,IAnswerRepository,AnswerDTO>" <|-- AnswerService
+IAnswerService <|-- AnswerService
+@enduml

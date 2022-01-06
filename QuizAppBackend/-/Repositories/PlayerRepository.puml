@@ -1,0 +1,8 @@
+@startuml
+class PlayerRepository {
+    + PlayerRepository(context:AppDbContext)
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<Player>
+}
+"CRUDRepository`1" "<Player>" <|-- PlayerRepository
+IPlayerRepository <|-- PlayerRepository
+@enduml

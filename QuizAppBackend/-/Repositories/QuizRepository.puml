@@ -1,0 +1,10 @@
+@startuml
+class QuizRepository {
+    + QuizRepository(context:AppDbContext)
+    + getByName(name:string) : Quiz
+    + GetByStatus(status:Status) : IEnumerable<Quiz>
+    + GetByCategory(category:Category) : IEnumerable<Quiz>
+}
+"CRUDRepository`1" "<Quiz>" <|-- QuizRepository
+IQuizRepository <|-- QuizRepository
+@enduml

@@ -1,0 +1,7 @@
+@startuml
+enum Status {
+    Draft,
+    Published,
+    Archived,
+}
+@enduml

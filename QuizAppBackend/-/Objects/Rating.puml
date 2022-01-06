@@ -1,0 +1,6 @@
+@startuml
+class Rating {
+    + Id : Guid <<get>> <<set>>
+    + Rate : int <<get>> <<set>>
+}
+@enduml

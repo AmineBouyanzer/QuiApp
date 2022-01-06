@@ -1,0 +1,6 @@
+@startuml
+interface IPlayerRepository {
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<Player>
+}
+"ICRUDRepository`1" "<Player>" <|-- IPlayerRepository
+@enduml

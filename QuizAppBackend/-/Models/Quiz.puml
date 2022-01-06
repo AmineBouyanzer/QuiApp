@@ -1,0 +1,13 @@
+@startuml
+class Quiz {
+    + Name : string <<get>> <<set>>
+    + Status : Status <<get>> <<set>>
+    + Password : string <<get>> <<set>>
+    + Rating : float <<get>> <<set>>
+    + NbRating : int <<get>> <<set>>
+    + <<virtual>> Category : Category <<get>> <<set>>
+    + <<virtual>> Questions : IEnumerable<Question> <<get>> <<set>>
+    + <<virtual>> Score : IEnumerable<Player> <<get>> <<set>>
+}
+EntityWithId <|-- Quiz
+@enduml

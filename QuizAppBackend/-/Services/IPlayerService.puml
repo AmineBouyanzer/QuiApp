@@ -1,0 +1,6 @@
+@startuml
+interface IPlayerService {
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<PlayerDTO>
+}
+"ICRUDService`2" "<Player,PlayerDTO>" <|-- IPlayerService
+@enduml

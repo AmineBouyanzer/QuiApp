@@ -1,0 +1,6 @@
+@startuml
+interface IQuestionRepository {
+    + GetByQuiz(idQuiz:Guid) : IEnumerable<Question>
+}
+"ICRUDRepository`1" "<Question>" <|-- IQuestionRepository
+@enduml

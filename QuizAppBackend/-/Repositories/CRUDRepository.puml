@@ -1,0 +1,11 @@
+@startuml
+class "CRUDRepository`1"<T> {
+    + CRUDRepository(context:AppDbContext)
+    + GetAll() : IEnumerable<T>
+    + GetById(id:Guid) : T
+    + Insert(obj:T) : void
+    + Update(obj:T) : void
+    + Delete(id:Guid) : void
+}
+"ICRUDRepository`1" "<T>" <|-- "CRUDRepository`1"
+@enduml

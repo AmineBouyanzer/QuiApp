@@ -1,0 +1,11 @@
+@startuml
+class "CRUDService`3"<T,U,DTO> {
+    + CRUDService(CRUDRepository:U, mapper:IMapper)
+    + GetAll() : IEnumerable<DTO>
+    + GetById(Id:Guid) : DTO
+    + Insert(obj:DTO) : void
+    + Update(obj:DTO) : void
+    + Delete(id:Guid) : void
+}
+"ICRUDService`2" "<T,DTO>" <|-- "CRUDService`3"
+@enduml

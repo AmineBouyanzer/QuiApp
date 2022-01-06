@@ -1,0 +1,15 @@
+@startuml
+class QuizDTO {
+    + Name : string <<get>> <<set>>
+    + Rating : float <<get>> <<set>>
+    + NbRating : int <<get>> <<set>>
+    + <<virtual>> Status : Status <<get>> <<set>>
+    + Password : string <<get>> <<set>>
+    + <<virtual>> Category : Category <<get>> <<set>>
+    + <<virtual>> Questions : IEnumerable<QuestionDTO> <<get>> <<set>>
+    + <<virtual>> Score : IEnumerable<PlayerDTO> <<get>> <<set>>
+    + Validate(validationContext:ValidationContext) : IEnumerable<ValidationResult>
+}
+EntityWithIdDTO <|-- QuizDTO
+IValidatableObject <|-- QuizDTO
+@enduml

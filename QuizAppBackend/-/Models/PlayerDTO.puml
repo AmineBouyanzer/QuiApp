@@ -1,0 +1,8 @@
+@startuml
+class PlayerDTO {
+    + Name : string <<get>> <<set>>
+    + Result : int <<get>> <<set>>
+    + QuizId : Guid <<get>> <<set>>
+}
+EntityWithIdDTO <|-- PlayerDTO
+@enduml

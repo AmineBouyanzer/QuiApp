@@ -1,0 +1,9 @@
+@startuml
+interface "ICRUDService`2"<T,DTO> {
+    GetAll() : IEnumerable<DTO>
+    GetById(Id:Guid) : DTO
+    Insert(obj:DTO) : void
+    Update(obj:DTO) : void
+    Delete(id:Guid) : void
+}
+@enduml

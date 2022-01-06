@@ -1,0 +1,7 @@
+@startuml
+class m5 <<partial>> {
+    # <<override>> Up(migrationBuilder:MigrationBuilder) : void
+    # <<override>> Down(migrationBuilder:MigrationBuilder) : void
+}
+Migration <|-- m5
+@enduml

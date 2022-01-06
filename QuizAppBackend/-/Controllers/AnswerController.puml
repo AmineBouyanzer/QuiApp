@@ -1,0 +1,6 @@
+@startuml
+class AnswerController {
+    + AnswerController(service:IAnswerService)
+}
+"GenericController`3" "<Answer,AnswerDTO,IAnswerService>" <|-- AnswerController
+@enduml

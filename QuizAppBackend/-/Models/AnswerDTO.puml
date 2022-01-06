@@ -1,0 +1,8 @@
+@startuml
+class AnswerDTO {
+    + Text : string <<get>> <<set>>
+    + Correct : bool <<get>> <<set>>
+    + QuestionId : Guid <<get>> <<set>>
+}
+EntityWithIdDTO <|-- AnswerDTO
+@enduml
